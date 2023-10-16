@@ -1,7 +1,7 @@
 namespace RapChieuPhim
 {
     public partial class Form1 : Form
-    {
+    {//hao da o day
         List<Button> DanhSachChon = new List<Button>();
         int intThanhTien = 0;
         public Form1()
