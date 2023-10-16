@@ -1,5 +1,6 @@
 namespace RapChieuPhim
 {
+    
     public partial class Form1 : Form
     {
         List<Button> DanhSachChon = new List<Button>();
@@ -9,6 +10,7 @@ namespace RapChieuPhim
 
             InitializeComponent();
             textBox1.Enabled = false;
+            Console.WriteLine("adudu");
         }
 
         private void label1_Click(object sender, EventArgs e)
